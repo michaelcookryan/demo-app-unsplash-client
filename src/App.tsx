@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useCallback } from "react";
 import { createApi } from "unsplash-js";
 
-import CardList from "./components/CardList/CardList";
-import Pagination from "./components/Pagination/Pagination";
-import SearchBox from "./components/SearchBox/SearchBox";
+import CardList from "./Components/CardList/CardList";
+import Pagination from "./Components/Pagination/Pagination";
+import SearchBox from "./Components/SearchBox/SearchBox";
 
 import "./App.scss";
 
