@@ -1,11 +1,11 @@
 import React, { useState, useEffect, useCallback } from "react";
 import { createApi } from "unsplash-js";
 
-import CardList from "./components/CardList/CardList";
-import Pagination from "./components/Pagination/Pagination";
-import SearchBox from "./components/SearchBox/SearchBox";
+import CardList from "./components/cardlist/cardlist";
+import Pagination from "./components/pagination/pagination";
+import SearchBox from "./components/searchbox/searchbox";
 
-import "./App.scss";
+import "./app.scss";
 
 const App = () => {
   const [photos, setPhotos] = useState([]);

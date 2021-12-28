@@ -17,6 +17,7 @@ const Card = ({ photoItem, description, attributionLink, user }: Props) => (
     <a
       href={`${attributionLink}?utm_source=demo&utm_medium=referral`}
       target='_blank'
+      rel='noreferrer'
     >
       {user}
     </a>
