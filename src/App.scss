@@ -2,10 +2,10 @@
 @import "~bootstrap/scss/bootstrap";
 
 // Import component styles
-@import "./Components/Card/card.styles.scss";
-@import "./Components/CardList/cardList.styles.scss";
-@import "./Components/Pagination/pagination.styles.scss";
-@import "./Components/SearchBox/searchbox.styles.scss";
+@import "./components/card/card.styles.scss";
+@import "./components/cardList/cardList.styles.scss";
+@import "./components/pagination/pagination.styles.scss";
+@import "./components/searchbox/searchbox.styles.scss";
 
 a {
   display: inline-block;
