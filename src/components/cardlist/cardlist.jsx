@@ -2,7 +2,7 @@ import React from "react";
 
 import Card from "../card/card";
 
-import "./cardList.styles.scss";
+import "./cardlist.styles.scss";
 
 // interface Props {
 //   photoList?: any[];
