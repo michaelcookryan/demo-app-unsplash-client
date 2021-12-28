@@ -4,13 +4,14 @@ import ReactPaginate from "react-paginate";
 
 import "./pagination.styles.scss";
 
-interface Props {
-  initialPage: number;
-  pageCount: number;
-  onPageChange: (e: any) => void;
-}
+// interface Props {
+//   initialPage: number;
+//   pageCount: number;
+//   onPageChange: (e: any) => void;
+// }
 
-const Pagination = ({ initialPage, pageCount, onPageChange }: Props) => (
+// const Pagination = ({ initialPage, pageCount, onPageChange }: Props) => (
+const Pagination = ({ initialPage, pageCount, onPageChange }) => (
   <ReactPaginate
     containerClassName='pagination'
     pageClassName='pageItem'
