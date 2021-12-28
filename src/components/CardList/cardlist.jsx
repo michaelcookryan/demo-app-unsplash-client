@@ -4,11 +4,12 @@ import Card from "../card/card";
 
 import "./cardList.styles.scss";
 
-interface Props {
-  photoList?: any[];
-}
+// interface Props {
+//   photoList?: any[];
+// }
 
-const CardList = ({ photoList }: Props) => (
+// const CardList = ({ photoList }: Props) => (
+const CardList = ({ photoList }) => (
   <div className='d-sm-flex flex-wrap justify-content-between align-items-center card-list'>
     {photoList.length > 0 &&
       photoList.map((photo) => (
@@ -23,8 +24,8 @@ const CardList = ({ photoList }: Props) => (
       ))}
   </div>
 );
-CardList.defaultProps = {
-  photoList: undefined,
-};
+// CardList.defaultProps = {
+//   photoList: undefined,
+// };
 
 export default CardList;
