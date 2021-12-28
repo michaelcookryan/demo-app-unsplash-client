@@ -73,14 +73,14 @@ const App = () => {
   }, [itemOffset, photos]);
 
   // enter keyword
-  const handleChange = useCallback((e: any) => {
+  const handleChange = useCallback((e) => {
     const searchField = e.target.value;
     setQueryType(searchField);
   }, []);
 
   // adjust range of photos
   const handlePageClick = useCallback(
-    (e: any) => {
+    (e) => {
       if (photos?.length > 0) {
         const newOffset = (e.selected * 9) % photos.length;
         setItemOffset(newOffset);
