@@ -2,14 +2,6 @@ import React from "react";
 
 import "./card.styles.scss";
 
-// interface Props {
-//   photoItem: any;
-//   description: string;
-//   attributionLink: string;
-//   user: string;
-// }
-
-// const Card = ({ photoItem, description, attributionLink, user }: Props) => (
 const Card = ({ photoItem, description, attributionLink, user }) => (
   <div className='card-container'>
     <div className='card-image-wrapper'>
